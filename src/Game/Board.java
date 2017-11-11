@@ -26,7 +26,7 @@ public class Board extends JPanel implements ActionListener, Runnable{
 	Cloud cloud2;
 	int randomNum, randomNum2;
 	int score = 0;
-	Font myFont = new Font("ArialBlack", Font.BOLD, 30);
+	Font myFont = new Font("ArialBlack", Font.BOLD, 31);
 	boolean isLost = false;
 	JFrame secondFrame = new JFrame();
 	JFrame thirdFrame = new JFrame();
